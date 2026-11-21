@@ -6,11 +6,6 @@ env/
 __pycache__/
 *.pyc
 
-# Données NHANES (lourdes, téléchargeables sur le site du CDC)
-data/
-*.xpt
-*.XPT
-
 # VS Code / système
 .vscode/
 .DS_Store
