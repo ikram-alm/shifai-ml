@@ -1,0 +1,42 @@
+{
+  "roc_auc": 0.811,
+  "pr_auc": 0.7681,
+  "baseline_logistic_roc_auc": 0.7966,
+  "seuil_decision": 0.4778,
+  "sensibilite": 0.8089,
+  "specificite": 0.6654,
+  "vpp": 0.6593,
+  "n_test": 1824,
+  "homa_seuil": 2.5,
+  "features": [
+    "age",
+    "sexe_femme",
+    "origine",
+    "poids",
+    "taille",
+    "imc",
+    "tour_taille",
+    "ratio_taille_hauteur",
+    "tension_sys",
+    "tension_dia",
+    "antecedent_familial",
+    "fumeur"
+  ],
+  "validation_temporelle": {
+    "entrainement": [
+      "2013-2014",
+      "2015-2016",
+      "2017-2018"
+    ],
+    "test": "2021-2023",
+    "n_train": 5161,
+    "n_test": 2666,
+    "roc_auc": 0.815,
+    "pr_auc": 0.7702,
+    "baseline_logistic_roc_auc": 0.8114,
+    "seuil_decision": 0.4692,
+    "sensibilite": 0.7832,
+    "specificite": 0.7018,
+    "vpp": 0.6716
+  }
+}
